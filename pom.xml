@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.navis</groupId>
+	<artifactId>minefield</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Minefield</name>
+	<description>There are bunch of mines in a mine field, and you are tasked with exploding as many of them as you can.  The only caveat is you can only explode one manually.  The mine you manually explode will set off a chain reaction.  For any mine that explodes, all mines within the blast radius of that mine will be triggered to explode in one second.  The mine you manually explode blows up at time 0.</description>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
